@@ -1,7 +1,7 @@
 {% extends "master" %}
 
 {% block head %}
-    <script type="text/javascript" src="/ZeroClipboard.js"></script>
+    <script type="text/javascript" src="/js/ZeroClipboard.js"></script>
     <script type='text/javascript' src="/js/lorem.js"></script>
 {% endblock head %}
 
