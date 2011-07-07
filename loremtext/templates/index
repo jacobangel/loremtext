@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lorem Text | loremtext.com </title>
+    
+    <link rel="shortcut icon" href="/favicon.ico" /> 
+    <link href="/css/reset.css" rel="Stylesheet" type="text/css"/>
+    <link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'>
+    <link href="/css/style.css" rel="Stylesheet" type="text/css"/>
+   
+    <!--[if IE]>
+    <link href="/css/ie.css" rel="Stylesheet" type="text/css" />
+    <![endif]-->
+    <script type="text/javascript" src="/ZeroClipboard.js"></script>
+    <script type='text/javascript' src="/js/jquery-1.4.2.min.js"></script>
+    <script type='text/javascript' src="/js/lorem.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-3269838-4']);
+        _gaq.push(['_trackPageview']);
+      
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</head>
+<body>
+    <div id="wrapper">
+    <div id="wrapper-inner">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href='/about'>about</a></li>
+                    <li><a href='/donatelink'>donate</a></li>
+                    <li><a href='/suggestions'>suggestions</a></li>
+                </ul>
+            </nav>
+            <div id='ads'>
+          
+            <script type="text/javascript"><!--
+                google_ad_client = "pub-7303381813575597";
+                /* Loremtext 728x90 1.0 */
+                google_ad_slot = "8091322491";
+                google_ad_width = 728;
+                google_ad_height = 90;
+                //-->
+           
+                </script>
+                <script type="text/javascript"
+                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+          
+            </div>
+            <div id="masthead">
+                <h1><a href='/'>Lorem Text</a></h1>
+                <p class='teaser'>Fluff and Filler, Fast &amp Frilless</p>
+            </div>
+        </header>
+        <div id="content">
+            <div id='lorem-maker'>
+                <div id='controls'>
+                    
+                    <ul>
+                        <li id='clipboard'><div id='clip_cont' style='position:relative;'><div id='clip_button'>Copy to Clipboard</div></div></li>
+                        <li id='classic'><label>Classic intro?<input checked="true" type="checkbox" name='type' value=''/></label></li>
+                        <li id='type'><label>&para;<input checked="true" type="radio" name='type' value=''/></label> | <label>words<input type="radio" name='type' value=''/></label> | <label>list<input type="radio" name='type' value=''/></label></li>
+                        <li id='units'><label>Paragraphs: <span class='current'>3</span><br></label><input type="range"
+                            min="1"
+                            max="20"
+                            step="1"
+                            value="3"/>
+                        </li>
+                        <li id='regen'><a href='#'>Regenerate!</a></li>
+                        
+                    </ul>
+                   
+                </div>
+                <div id='loremText'>
+                    <noscript>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                        <p>Non eram nescius, Brute, cum, quae summis ingeniis exquisitaque doctrina philosophi Graeco sermone tractavissent, ea Latinis litteris mandaremus, fore ut hic noster labor in varias reprehensiones incurreret. nam quibusdam, et iis quidem non admodum indoctis, totum hoc displicet philosophari. quidam autem non tam id reprehendunt, si remissius agatur, sed tantum studium tamque multam operam ponendam in eo non arbitrantur. erunt etiam, et ii quidem eruditi Graecis litteris, contemnentes Latinas, qui se dicant in Graecis legendis operam malle consumere. postremo aliquos futuros suspicor, qui me ad alias litteras vocent, genus hoc scribendi, etsi sit elegans, personae tamen et dignitatis esse negent.</p>
+                        <p>Contra quos omnis dicendum breviter existimo. Quamquam philosophiae quidem vituperatoribus satis responsum est eo libro, quo a nobis philosophia defensa et collaudata est, cum esset accusata et vituperata ab Hortensio. qui liber cum et tibi probatus videretur et iis, quos ego posse iudicare arbitrarer, plura suscepi veritus ne movere hominum studia viderer, retinere non posse. Qui autem, si maxime hoc placeat, moderatius tamen id volunt fieri, difficilem quandam temperantiam postulant in eo, quod semel admissum coerceri reprimique non potest, ut propemodum iustioribus utamur illis, qui omnino avocent a philosophia, quam his, qui rebus infinitis modum constituant in reque eo meliore, quo maior sit, mediocritatem desiderent.</p>
+                     </noscript>
+                    <p class='classic_opening'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class='moreText'><a href="#">+ More</a></div>
+            </div>
+        </div>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href='/about'>about</a></li>
+                    <li><a href='/donatelink'>donate</a></li>
+                    <li><a href='/suggestions'>suggestions</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+    </div>
+</body>
+</html>
+

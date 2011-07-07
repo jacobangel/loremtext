@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ title }} | The Lorem Text Generator</title>
+    
+    <link rel="shortcut icon" href="/favicon.ico" />
+      <link href="/css/reset.css" rel="Stylesheet" type="text/css"/>
+    <link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT&subset=latin' rel='stylesheet' type='text/css'>
+    <link href="/css/style.css" rel="Stylesheet" type="text/css"/>
+   
+    <!--[if IE]>
+    <link href="/css/ie.css" rel="Stylesheet" type="text/css" />
+    <![endif]-->
+    <script type='text/javascript' src="/js/jquery-1.4.2.min.js"></script>
+    {% block head %}{% endblock head %}
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src='/js/ga.js' type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href='/' name='top'>loremtext.com</a></li>
+                <li><a href='/about'>about</a></li>
+                <li><a href='/help'>help</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+    <div id="wrapper">
+    <div id="wrapper-inner">
+         <div id='ads'>
+            <script type="text/javascript"
+            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script>
+        </div>
+        <div id="content">
+            {% block content %}{% endblock content %}
+        </div>
+        
+    </div>
+    </div>
+<footer>
+                <div id='afterword'>
+            <p class='copy'>
+                Copyright &copy; {% now "Y" %} <a href='http://www.jacobangel.org'>Jacob Angel</a><br/>Hosted by <a href='http://www.dreamhost.com/r.cgi?386159'>DreamHost</a><br/>and powered by a (wee) bit of <a href='http://www.djangoproject.com/'>Django</a>
+            </p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href='#top' name='bottom'>top</a></li>
+                    <li><a href='/about' rel='nofollow'>about</a></li>
+                    <li><a href='/help' rel='nofollow'>help</a></li>
+                </ul>
+            </nav>
+    <div class='clear'> </div>
+    </footer>
+</body>
+</html>

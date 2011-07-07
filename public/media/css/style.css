@@ -1,0 +1,164 @@
+/* 
+loremtext.com Stylesheet
+Author: Jacob Angel - http://jacobangel.org 
+Twitter: @rich_clark
+*/
+
+body {
+    background-color: #EEE;
+}
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+    background: white;
+}
+
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_3 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 780px;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid_1,
+.grid_2,
+.grid_3 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+/* Grid >> 3 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_3 .grid_1 {
+	width:240px;
+}
+
+.container_3 .grid_2 {
+	width:500px;
+}
+
+.container_3 .grid_3 {
+	width:760px;
+}
+
+
+
+/* Prefix Extra Space >> 3 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_3 .prefix_1 {
+	padding-left:260px;
+}
+
+.container_3 .prefix_2 {
+	padding-left:520px;
+}
+
+
+
+/* Suffix Extra Space >> 3 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_3 .suffix_1 {
+	padding-right:260px;
+}
+
+.container_3 .suffix_2 {
+	padding-right:520px;
+}
+
+
+
+/* Push Space >> 3 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_3 .push_1 {
+	left:260px;
+}
+
+.container_3 .push_2 {
+	left:520px;
+}
+
+
+
+/* Pull Space >> 3 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_3 .pull_1 {
+	left:-260px;
+}
+
+.container_3 .pull_2 {
+	left:-520px;
+}
+
+
+
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+/******* style ********/
+#lorem-maker {position:relative;width: 720px;}
+#controls {float:right;}
+.moreText {text-align:center; background-color: #C63}
+.moreText:hover {background-color:#AAC;}
+.moreText a {text-decoration: none; color: #FFF;display:block;}
+.moreText a:hover {color: #FFF}
